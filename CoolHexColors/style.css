@@ -1,0 +1,45 @@
+
+.container{
+    /*border: 1px solid black;*/
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 26% auto;
+}
+
+.hex-colors{
+    text-align: center;
+}
+.hex-colors h1{
+    padding-bottom:1em ;
+    text-transform: uppercase;
+    animation: changecolor 5s infinite alternate;
+}
+.hex-colors h2{
+    color: #fff;
+}
+button{
+    width: 10em;
+}
+
+@keyframes changecolor{
+    0%{
+        color: blueviolet;
+    }
+    20%{
+        color: green;
+    }
+    40%{
+        color: teal;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: orange;
+    }
+    100%{
+        color: orangered;
+    }
+}
